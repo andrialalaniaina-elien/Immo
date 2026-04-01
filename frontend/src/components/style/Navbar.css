@@ -1,0 +1,330 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar container */
+.navbar {
+  background-color: #003366;
+  color: white;
+  padding: 0.8rem 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: oblique;
+  text-decoration: none;
+  color: white;
+  height: 36px;
+  margin-right: 20px;
+  margin-top: -13px;
+}
+
+#logoImg {
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Menu principal */
+.menu {
+  position: absolute;
+  top: 60px;
+  right: 5px;
+  width: 220px;
+  background-color: #003366;
+  border-radius: 4px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  gap: 0;
+}
+
+.menu.menu-open {
+  display: flex;
+}
+/* Lien actif */
+.menu .link.active-link {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  box-shadow: 0 4px 4px rgb(1, 34, 68, 0.5);
+}
+
+/* Styles pour les liens */
+.menu .link {
+  color: white;
+  text-decoration: none;
+  padding: 0.6rem 1rem;
+  border-radius: 18px;
+  width: 100%;
+  transition: background-color 0.4s ease, color 0.3s ease;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  text-align: center;
+}
+
+/* Hover */
+.menu .link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 4px rgb(1, 34, 68, 0.5);
+}
+
+/* Icône */
+.menu .link:before {
+  content: url("./path-to-your-icon.svg");
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+/* Bouton "Déposer une annonce" */
+.menu .link.add-property-btn {
+  background-color: oklab(36.988% -0.02387 -0.24476);
+  color: white;
+  font-weight: bold;
+  border-radius: 18px;
+  padding: 0.6rem 1.2rem;
+  text-align: center;
+  width: 100%;
+  transition: background-color 0.3s ease;
+  height: 36px;
+  justify-content: center;
+}
+
+.menu .link.add-property-btn:hover {
+  background-color: #003d73;
+}
+
+/* Bouton déconnexion */
+.logout-btn {
+  background-color: #003366;
+  color: white;
+  border: none;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 18px;
+  cursor: pointer;
+  width: 165px;
+  transition: background-color 0.3s ease;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.logout-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 4px rgb(1, 34, 68, 0.5);
+}
+
+/* Responsive menu mobile */
+@media (max-width: 964px) {
+  .menu .link {
+    width: 165px;
+    font-size: 0.95rem;
+    padding: 0.5rem 0.8rem;
+  }
+
+  .menu .link.add-property-btn {
+    font-size: 0.95rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .menu {
+    margin-top: 5px;
+    width: 190px;
+    padding: 0.5rem;
+    gap: 0.5rem;
+  }
+
+  .search-input {
+    width: 160px;
+  }
+}
+
+/* User info */
+.user-info {
+  color: #ffcc00;
+  font-weight: 500;
+  margin: 0.5rem 0;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+
+/* Recherche */
+.search-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 1rem;
+}
+
+.search-icon {
+  width: 36px;
+  height: 36px;
+  padding: 9px;
+  border-radius: 50%;
+  cursor: pointer;
+  object-fit: contain;
+}
+
+.search-icon:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  background-color: #386796;
+  color: #ffffff;
+  width: 180px;
+  height: 30px;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  flex-grow: 1;
+}
+
+/* Hamburger */
+.hamburger {
+  background-color: #13254d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+
+.hamburger:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.hamburger.hamburger-open {
+  background-color: #001f40;
+}
+
+/* Zone à droite */
+.right-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-left: auto;
+}
+
+/* Grand écran */
+@media (min-width: 965px) {
+  .hamburger {
+    display: none;
+  }
+
+  .search-wrapper {
+    display: flex !important;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 1rem;
+  }
+
+  .menu {
+    position: static;
+    display: flex !important;
+    flex-direction: row;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    width: auto;
+    min-width: auto;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .menu .link {
+    padding: 0.6rem 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .logout-btn {
+    width: 150px;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.95rem;
+  }
+
+  .user-info {
+    margin: 0 1rem;
+  }
+
+  .search-form {
+    display: flex !important;
+  }
+}
+
+/* Photo profil */
+.user-avatar {
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Lien profil */
+.profil-link {
+  height: 36px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Centrage horizontal & vertical */
+.menu .link,
+.menu .logout-btn,
+.menu .profil-link,
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Bloc profil */
+#profilbloc {
+  width: 36px;
+}

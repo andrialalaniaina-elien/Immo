@@ -1,0 +1,55 @@
+.favoris-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 0.6rem;
+}
+
+.favoris-actions button {
+  padding: 0.4rem 0.6rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.favoris-actions button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Bouton Marquer comme VENDUE */
+.favoris-actions button:nth-child(1) {
+  background-color: #f39c12;
+  width: 70%;
+  margin: auto;
+}
+
+.favoris-actions button:nth-child(1):hover:not(:disabled) {
+  background-color: #d68910;
+}
+
+/* Bouton Modifier */
+.favoris-actions button:nth-child(2) {
+  background-color: #3498db;
+  width: 70%;
+  margin: auto;
+}
+
+.favoris-actions button:nth-child(2):hover:not(:disabled) {
+  background-color: #2c80b4;
+}
+
+/* Bouton Supprimer */
+.favoris-actions button:nth-child(3) {
+  background-color: #e74c3c;
+  width: 70%;
+  margin: 0 auto 10px;
+}
+
+.favoris-actions button:nth-child(3):hover:not(:disabled) {
+  background-color: #c0392b;
+}

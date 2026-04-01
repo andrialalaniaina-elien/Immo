@@ -1,0 +1,71 @@
+/* style/ImageViewer.css */
+
+.viewer-overlay {
+  background-color: rgb(18, 17, 17);
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.viewer-image {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 4px;
+  object-fit: contain;
+  z-index: 2;
+}
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5rem;
+  background: none;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  z-index: 3;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button.left {
+  left: 2%;
+}
+
+.nav-button.right {
+  right: 2%;
+}
+
+.nav-button:hover {
+  opacity: 0.7;
+  background-color: rgb(28, 26, 26);
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 1.4rem;
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  z-index: 3;
+  transition: opacity 0.2s;
+}
+
+.close-button:hover {
+  opacity: 0.7;
+}
+
+.no-image-text {
+  color: #ccc;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 2rem;
+}

@@ -1,0 +1,195 @@
+/* Conteneur principal en flex, deux colonnes */
+.register-wrapper {
+  display: flex;
+  min-height: 75.88vh;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Colonne gauche - texte + illustration */
+.register-left {
+  flex: 1;
+  padding: 4rem 3rem;
+  border-radius: 0 10px 10px 0;
+  background-image: url("/maison-register.jpg");
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.2rem;
+  position: relative;
+}
+
+.register-left h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.register-left h1 span {
+  color: #90e0ef;
+}
+
+.register-left p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 420px;
+}
+
+/* Illustration - adapte le chemin et image */
+.register-image {
+  margin-top: 2rem;
+  max-width: 80%;
+  align-self: center;
+}
+
+/* Colonne droite - formulaire */
+.register-right {
+  flex: 1;
+  padding: 10px 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  min-height: 75.88vh;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Titres et textes */
+.register-right h2 {
+  font-size: 2.2rem;
+  margin: 0;
+  color: #023e8a;
+}
+
+/* Formulaire */
+.register-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-right label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #023e8a;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.register-right input {
+  padding: 10px 10px;
+  margin: 0 10px;
+  border: 1.8px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease;
+}
+
+.register-right input:focus {
+  outline: none;
+  border-color: #0077b6;
+  background-color: white;
+}
+
+/* Message d'erreur */
+.error-message {
+  background-color: #ffe6e6;
+  color: #b00020;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Texte légal */
+.legal-text {
+  font-size: 16px;
+  color: #666;
+  margin-top: 12px;
+}
+
+.legal-text a {
+  color: #0077b6;
+  text-decoration: underline;
+}
+
+/* Bouton */
+.register-right button {
+  margin: 15px 70px 0 70px;
+  padding: 12px 0;
+  background-color: #0077b6;
+  color: white;
+  font-weight: 700;
+  font-size: 17px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-right button:hover {
+  background-color: #005f94;
+}
+
+/* Lien connexion */
+.login-link {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.login-link a {
+  color: #0077b6;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive : passage en colonne */
+@media (max-width: 900px) {
+  .register-wrapper {
+    flex-direction: column;
+    padding: 0 1rem 2rem 1rem;
+  }
+
+  .register-left {
+    border-radius: 0;
+    padding: 2rem 1rem;
+    margin: 0 -1rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .register-left h1 {
+    font-size: 2.5rem;
+  }
+
+  .register-left p {
+    max-width: 100%;
+  }
+
+  .register-image {
+    max-width: 60%;
+    margin-top: 1.5rem;
+  }
+
+  .register-right {
+    max-width: 100%;
+    border-radius: 20px;
+    padding: 3rem 2rem;
+    margin-top: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+}

@@ -1,0 +1,95 @@
+.profil-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.profil-card {
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.profil-avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profil-info {
+  background-color: rgb(2, 14, 190, 0.1);
+  flex: 1 1;
+  border-radius: 0 12px 12px 0;
+  padding: 1rem 1rem 0;
+  min-width: 250px;
+  min-height: 310px;
+}
+
+.profil-info h2 {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.profil-field {
+  display: flex;
+  margin-bottom: 0.6rem;
+}
+
+.profil-field .label {
+  width: 130px;
+  font-weight: 600;
+  color: #555;
+}
+
+.profil-links {
+  margin-top: 1rem;
+}
+
+.profil-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  gap: 0.6rem;
+}
+
+.btn-primary {
+  background-color: #f0ad4e;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-danger {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-logout {
+  background-color: #5a6268;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}

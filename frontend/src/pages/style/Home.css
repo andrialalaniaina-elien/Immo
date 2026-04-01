@@ -1,0 +1,194 @@
+.home {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1;
+  min-height: 75.88vh;
+}
+
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("/Maison-fond.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: darken;
+}
+
+/* Section Hero */
+.hero-banner {
+  color: white;
+  padding: 1rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.hero-banner h1 {
+  font-size: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.hero-banner p {
+  font-size: 1.1rem;
+}
+
+.cta-button {
+  margin-top: 2rem;
+  padding: 0.9rem 2rem;
+  background-color: #e4ca65;
+  color: #003366;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ffd700;
+}
+
+/* Section Recherche */
+.search-section {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.search-section form {
+  display: inline-flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.search-section input {
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 280px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.search-section input:focus {
+  border-color: #0077cc;
+  outline: none;
+}
+
+.search-section button {
+  padding: 0.7rem 1.5rem;
+  background-color: #00509e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.search-section button:hover {
+  background-color: #003f7a;
+}
+
+/* Section Annonces mises en avant */
+
+.featured-listings .listings-grid {
+  background-color: rgb(0, 51, 102, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin-top: 1rem;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.featured-listings a {
+  width: 190px;
+  height: 238.5px;
+  text-decoration: none;
+  color: inherit;
+  background-color: #ffffff;
+  border: solid 2px #171a3b;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-listings a:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0.4, 0.5);
+  transform: translateY(-4px);
+}
+
+.featured-listings img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.featured-listings h3 {
+  font-size: 1.1rem;
+  margin: 0.7rem 0 0;
+  color: #060153;
+}
+
+.featured-listings p {
+  font-size: 0.95rem;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+/* Texte de chargement ou message */
+.featured-listings p,
+.search-section p {
+  font-size: 1rem;
+  text-align: center;
+  color: #705555;
+  padding: 1rem;
+}
+
+.flash-message {
+  position: fixed;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(0, 255, 94, 0.3);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1999;
+  animation: fadeInOut 4s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-10px);
+  }
+  10% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  90% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-10px);
+  }
+}

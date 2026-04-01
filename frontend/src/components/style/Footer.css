@@ -1,0 +1,59 @@
+footer {
+  background-color: #01152d;
+  color: #ffffff;
+  padding: 0.8rem 1.5rem;
+  box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer > div {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Responsive */
+@media (max-width: 760px) {
+  footer > div {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+  }
+}
+.gauche {
+  text-align: center;
+  padding-left: 10px;
+}
+.slogan {
+  color: rgb(255, 255, 255);
+  font-style: oblique;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.centre {
+  text-align: center;
+}
+.centre a {
+  color: rgb(158, 158, 192);
+}
+.droite {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.facebook {
+  width: 26px;
+}
+.instagram {
+  height: 38px;
+}
+.whatsapp {
+  height: 42px;
+  margin: -5px -7px 0 -7px;
+}
+.email-image {
+  height: 26px;
+  border-radius: 50%;
+}
+.droite img:hover {
+  transform: scale(1.1);
+}

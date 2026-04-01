@@ -1,0 +1,560 @@
+[2025-07-30T13:07:40.107Z] User:testUserId - Action: testAction - Details: Ceci est un test manuel de journalisation
+[2025-07-30T13:17:01.600Z] User:687ceb6220887e15dc3c6022 - Action: deleteUserByAdmin - Details: Utilisateur 6887c53c6dbcdd4f381e0f38 supprimé avec 0 annonces
+[2025-07-30T13:31:33.823Z] User:688a1bda52d0b61f7df916cb - Action: toggleSoldStatus - IP: Annonce 688a1cbc52d0b61f7df916e5 marquée comme vendue=true
+[2025-07-30T13:31:45.467Z] User:688a1bda52d0b61f7df916cb - Action: toggleSoldStatus - IP: Annonce 688a1cbc52d0b61f7df916e5 marquée comme vendue=false
+[2025-07-30T13:41:35.262Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-07-30T13:49:33.676Z] User:688a22ed91899669c2a7bf6c - Action: register - IP: Nouvel utilisateur inscrit : utilisateur6@utilisateur6.com
+[2025-07-30T13:52:37.420Z] User:688a22ed91899669c2a7bf6c - Action: login - IP: Connexion utilisateur : utilisateur6@utilisateur6.com
+[2025-07-30T14:10:00.928Z] User:688a1bda52d0b61f7df916cb - Action: login - IP: Connexion utilisateur : utilisateur5@utilisateur5.com
+[2025-07-30T14:10:17.266Z] User:688a1bda52d0b61f7df916cb - Action: toggleSoldStatus - IP: Annonce 688a1cbc52d0b61f7df916e5 marquée comme vendue=true
+[2025-07-30T14:12:47.012Z] User:688a1bda52d0b61f7df916cb - Action: toggleSoldStatus - IP: Annonce 688a1cbc52d0b61f7df916e5 marquée comme vendue=false
+[2025-07-30T20:38:07.961Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-07-30T20:42:31.204Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-07-30T21:13:10.430Z] User:68777470d59c495dbfc31dfa - Action: login - IP: Connexion utilisateur : utilisateur@utilisateur.com
+[2025-07-31T14:31:16.392Z] User:688b7e3485943f1f6504cb50 - Action: register - IP: Nouvel utilisateur inscrit : andrialalaniaina@test.com
+[2025-07-31T16:23:50.129Z] User:68777470d59c495dbfc31dfa - Action: login - IP: Connexion utilisateur : utilisateur@utilisateur.com
+[2025-07-31T16:24:24.207Z] User:68777470d59c495dbfc31dfa - Action: addFavorite - IP: Ajout de la propriété 688a1afa52d0b61f7df912cb aux favoris
+[2025-07-31T16:26:46.800Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-07-31T17:47:02.270Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-07-31T17:48:51.368Z] User:68851b7085c1021398898e53 - Action: createProperty - IP: Ajout de l'annonce 688bac8385943f1f6504cff4
+[2025-08-01T03:05:16.847Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-01T03:05:17.996Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688bac8385943f1f6504cff4 des favoris
+[2025-08-01T03:05:19.179Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-01T03:05:19.953Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688bac8385943f1f6504cff4 des favoris
+[2025-08-01T03:05:20.735Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-01T03:05:21.942Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688bac8385943f1f6504cff4 des favoris
+[2025-08-01T03:05:23.664Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-01T03:05:25.292Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688bac8385943f1f6504cff4 des favoris
+[2025-08-01T03:05:26.013Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-01T03:16:15.654Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688bac8385943f1f6504cff4 des favoris
+[2025-08-01T03:16:16.689Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-01T03:48:05.095Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688a1cbc52d0b61f7df916e5 aux favoris
+[2025-08-01T03:48:07.923Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688a1cbc52d0b61f7df916e5 des favoris
+[2025-08-01T03:48:08.974Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688a1cbc52d0b61f7df916e5 aux favoris
+[2025-08-01T03:48:10.055Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688a1cbc52d0b61f7df916e5 des favoris
+[2025-08-01T03:48:10.683Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688a1cbc52d0b61f7df916e5 aux favoris
+[2025-08-01T04:01:22.906Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 68828e27fab629ad8532a2b3 aux favoris
+[2025-08-01T04:01:23.761Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 68828e27fab629ad8532a2b3 des favoris
+[2025-08-01T04:01:24.732Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 68828e27fab629ad8532a2b3 aux favoris
+[2025-08-01T04:01:25.307Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 68828e27fab629ad8532a2b3 des favoris
+[2025-08-01T04:13:54.245Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-01T04:28:59.934Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688bac8385943f1f6504cff4 des favoris
+[2025-08-01T16:55:57.261Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 68828e27fab629ad8532a2b3 aux favoris
+[2025-08-01T16:56:06.510Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 68828e27fab629ad8532a2b3 des favoris
+[2025-08-01T16:56:07.497Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 68828e27fab629ad8532a2b3 aux favoris
+[2025-08-01T16:56:08.318Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 68828e27fab629ad8532a2b3 des favoris
+[2025-08-01T16:56:09.039Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 68828e27fab629ad8532a2b3 aux favoris
+[2025-08-01T16:56:09.818Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 68828e27fab629ad8532a2b3 des favoris
+[2025-08-01T17:01:35.929Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 68828e27fab629ad8532a2b3 aux favoris
+[2025-08-01T17:16:19.711Z] User:68851b7085c1021398898e53 - Action: updateProperty - IP: Modification de l'annonce 688bac8385943f1f6504cff4
+[2025-08-01T17:44:58.627Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-01T17:45:03.129Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688bac8385943f1f6504cff4 des favoris
+[2025-08-01T17:56:56.250Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-01T17:56:57.210Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688bac8385943f1f6504cff4 des favoris
+[2025-08-01T18:17:23.151Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-01T18:17:25.126Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688bac8385943f1f6504cff4 des favoris
+[2025-08-02T02:40:36.283Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 68778be361767a17c6799b40 aux favoris
+[2025-08-02T03:05:13.340Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-02T03:18:53.385Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-02T03:18:54.391Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688bac8385943f1f6504cff4 des favoris
+[2025-08-02T03:18:55.653Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-02T03:18:56.372Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688bac8385943f1f6504cff4 des favoris
+[2025-08-02T03:18:57.444Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-02T03:18:58.843Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688bac8385943f1f6504cff4 des favoris
+[2025-08-02T03:18:59.713Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-02T03:19:03.584Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688bac8385943f1f6504cff4 des favoris
+[2025-08-02T03:19:09.072Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-02T03:19:23.049Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688bac8385943f1f6504cff4 des favoris
+[2025-08-02T03:19:26.327Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-02T04:09:03.101Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688bac8385943f1f6504cff4 des favoris
+[2025-08-02T04:09:06.035Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-02T07:06:04.796Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 6881037ef979871ca706c1b4 aux favoris
+[2025-08-02T07:06:06.136Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 6881037ef979871ca706c1b4 des favoris
+[2025-08-02T07:21:25.311Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 6881037ef979871ca706c1b4 aux favoris
+[2025-08-02T07:21:26.198Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 6881037ef979871ca706c1b4 des favoris
+[2025-08-02T07:23:45.354Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 6881037ef979871ca706c1b4 aux favoris
+[2025-08-02T18:24:46.122Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-02T18:55:13.857Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 68778be361767a17c6799b40 des favoris
+[2025-08-02T18:55:23.677Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688a1cbc52d0b61f7df916e5 des favoris
+[2025-08-02T18:55:30.352Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688a1cbc52d0b61f7df916e5 aux favoris
+[2025-08-02T18:55:39.312Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 68828e27fab629ad8532a2b3 des favoris
+[2025-08-02T19:24:25.851Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 68828e27fab629ad8532a2b3 aux favoris
+[2025-08-02T19:24:30.020Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 68826f19fab629ad85329c7b aux favoris
+[2025-08-02T19:24:38.066Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 687cd7a1a50639d5b45d6600 aux favoris
+[2025-08-02T19:24:42.248Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 68789140ac6ff16e851fcc2c aux favoris
+[2025-08-02T19:24:45.937Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 68778be361767a17c6799b40 aux favoris
+[2025-08-02T19:24:50.058Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 6877245ec3753f6c39f4d3c9 aux favoris
+[2025-08-02T19:24:56.997Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 6877240cc3753f6c39f4d3c4 aux favoris
+[2025-08-02T19:25:01.324Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 68771a71fb5a3bd63885fe92 aux favoris
+[2025-08-02T19:25:05.915Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 68700406cee49164472d0b4e aux favoris
+[2025-08-02T19:25:10.445Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 687002c2cee49164472d0b48 aux favoris
+[2025-08-02T19:25:15.016Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 687002bdcee49164472d0b44 aux favoris
+[2025-08-02T19:25:19.480Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 687002aecee49164472d0b40 aux favoris
+[2025-08-02T19:25:24.165Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 687002abcee49164472d0b3c aux favoris
+[2025-08-03T04:48:38.098Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688bac8385943f1f6504cff4 des favoris
+[2025-08-03T04:52:05.408Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=true
+[2025-08-03T04:52:08.627Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=true
+[2025-08-03T04:52:45.097Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-03T05:04:28.404Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688a1afa52d0b61f7df912cb des favoris
+[2025-08-03T05:17:32.997Z] User:68851ba885c1021398898e64 - Action: login - IP: Connexion utilisateur : faliana@faliana1.com
+[2025-08-03T05:17:51.015Z] User:68851ba885c1021398898e64 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-03T05:19:13.484Z] User:68851ba885c1021398898e64 - Action: removeFavorite - IP: Suppression de la propriété 688bac8385943f1f6504cff4 des favoris
+[2025-08-03T05:19:43.518Z] User:68851ba885c1021398898e64 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-03T05:19:52.093Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-03T05:21:25.307Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=false
+[2025-08-03T05:21:27.468Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=false
+[2025-08-03T05:54:03.446Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=true
+[2025-08-03T05:54:04.679Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=false
+[2025-08-03T05:54:05.396Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=true
+[2025-08-03T05:54:05.923Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=false
+[2025-08-03T05:54:08.420Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=true
+[2025-08-03T05:54:09.037Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=false
+[2025-08-03T05:54:22.556Z] User:68851b7085c1021398898e53 - Action: updateProperty - IP: Modification de l'annonce 688bac8385943f1f6504cff4
+[2025-08-03T06:03:12.911Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=true
+[2025-08-03T06:03:14.601Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=true
+[2025-08-03T06:03:19.039Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=false
+[2025-08-03T06:03:20.445Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=false
+[2025-08-03T06:03:42.779Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=true
+[2025-08-03T06:03:44.228Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=false
+[2025-08-03T06:04:02.771Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 688a1afa52d0b61f7df912cb aux favoris
+[2025-08-03T06:06:36.443Z] User:68851ba885c1021398898e64 - Action: login - IP: Connexion utilisateur : faliana@faliana1.com
+[2025-08-03T06:10:35.206Z] User:68851ba885c1021398898e64 - Action: login - IP: Connexion utilisateur : faliana@faliana1.com
+[2025-08-03T06:10:45.811Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-03T06:20:54.984Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-08-03T06:21:02.701Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=false
+[2025-08-03T06:21:12.275Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=true
+[2025-08-03T06:21:13.204Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=false
+[2025-08-03T06:21:14.150Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=true
+[2025-08-03T06:21:15.723Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=false
+[2025-08-03T06:23:32.402Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=true
+[2025-08-03T06:23:54.976Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=false
+[2025-08-03T06:25:24.077Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=true
+[2025-08-03T06:25:25.167Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=false
+[2025-08-03T06:27:15.049Z] User:687ceb6220887e15dc3c6022 - Action: addFavorite - IP: Ajout de la propriété 688bac8385943f1f6504cff4 aux favoris
+[2025-08-03T06:29:06.912Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-03T06:29:29.894Z] User:68851ba885c1021398898e64 - Action: login - IP: Connexion utilisateur : faliana@faliana1.com
+[2025-08-03T06:46:46.558Z] User:68777470d59c495dbfc31dfa - Action: login - IP: Connexion utilisateur : utilisateur@utilisateur.com
+[2025-08-04T04:18:02.115Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-04T04:18:10.138Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=true
+[2025-08-04T04:18:11.940Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=true
+[2025-08-04T04:30:08.198Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 687cd7a1a50639d5b45d6600 des favoris
+[2025-08-04T04:31:46.017Z] User:68851ba885c1021398898e64 - Action: login - IP: Connexion utilisateur : faliana@faliana1.com
+[2025-08-04T13:34:20.238Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-04T13:36:22.519Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=false
+[2025-08-04T13:36:33.275Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=false
+[2025-08-04T13:36:34.017Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=true
+[2025-08-04T13:36:35.038Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=false
+[2025-08-04T13:36:35.694Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=true
+[2025-08-04T17:06:33.572Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=true
+[2025-08-04T17:11:43.428Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=false
+[2025-08-04T17:13:14.243Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 687cd7a1a50639d5b45d6600 aux favoris
+[2025-08-04T17:13:46.221Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 687002a7cee49164472d0b38 aux favoris
+[2025-08-04T17:13:56.836Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 687002a3cee49164472d0b34 aux favoris
+[2025-08-04T17:14:00.528Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 6870028dcee49164472d0b30 aux favoris
+[2025-08-04T17:14:04.185Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 68700276cee49164472d0b2c aux favoris
+[2025-08-04T17:14:08.278Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 686f7f3341a619dd44d18466 aux favoris
+[2025-08-04T17:14:20.729Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 686f6440cc8c221b5a4fcb1f aux favoris
+[2025-08-04T17:14:25.791Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 686c14058e248a5c89224eaa aux favoris
+[2025-08-06T02:43:10.166Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-06T04:12:42.842Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 686f6440cc8c221b5a4fcb1f des favoris
+[2025-08-06T04:21:18.427Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=false
+[2025-08-06T04:21:19.439Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=true
+[2025-08-06T04:21:20.814Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=true
+[2025-08-06T04:27:58.480Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-06T18:36:28.628Z] User:68851b7085c1021398898e53 - Action: createProperty - IP: Ajout de l'annonce 6893a0ac2d2546f309e87439
+[2025-08-06T18:37:28.157Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 6893a0ac2d2546f309e87439 aux favoris
+[2025-08-06T18:55:57.985Z] User:68851b7085c1021398898e53 - Action: createProperty - IP: Ajout de l'annonce 6893a53d2d2546f309e87602
+[2025-08-06T20:43:36.909Z] User:68851b7085c1021398898e53 - Action: updateProperty - IP: Modification de l'annonce 6893a0ac2d2546f309e87439
+[2025-08-06T20:44:18.568Z] User:68851b7085c1021398898e53 - Action: deletePropertyImage - IP: Suppression image uploads/1754506557951-835551146.jpg pour 6893a53d2d2546f309e87602
+[2025-08-06T20:44:20.680Z] User:68851b7085c1021398898e53 - Action: updateProperty - IP: Modification de l'annonce 6893a53d2d2546f309e87602
+[2025-08-06T20:56:26.547Z] User:68851b7085c1021398898e53 - Action: updateProperty - IP: Modification de l'annonce 6893a53d2d2546f309e87602
+[2025-08-06T20:57:14.012Z] User:68851b7085c1021398898e53 - Action: updateProperty - IP: Modification de l'annonce 6893a53d2d2546f309e87602
+[2025-08-06T21:05:25.934Z] User:68851b7085c1021398898e53 - Action: updateProperty - IP: Modification de l'annonce 6893a53d2d2546f309e87602
+[2025-08-06T21:06:25.183Z] User:68851b7085c1021398898e53 - Action: updateProperty - IP: Modification de l'annonce 6893a53d2d2546f309e87602
+[2025-08-06T21:06:47.979Z] User:68851b7085c1021398898e53 - Action: updateProperty - IP: Modification de l'annonce 6893a53d2d2546f309e87602
+[2025-08-06T21:07:04.556Z] User:68851b7085c1021398898e53 - Action: updateProperty - IP: Modification de l'annonce 6893a53d2d2546f309e87602
+[2025-08-06T21:08:04.519Z] User:68851b7085c1021398898e53 - Action: updateProperty - IP: Modification de l'annonce 6893a53d2d2546f309e87602
+[2025-08-06T21:08:14.128Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 6893a53d2d2546f309e87602 marquée comme vendue=true
+[2025-08-06T21:08:15.038Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 6893a53d2d2546f309e87602 marquée comme vendue=false
+[2025-08-06T21:08:36.416Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-06T21:08:46.398Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 6893a0ac2d2546f309e87439 des favoris
+[2025-08-06T21:08:47.163Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 6893a0ac2d2546f309e87439 aux favoris
+[2025-08-06T21:09:07.955Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=false
+[2025-08-06T21:09:09.176Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=false
+[2025-08-06T21:09:11.880Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 6893a53d2d2546f309e87602 marquée comme vendue=true
+[2025-08-06T21:09:12.959Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 6893a0ac2d2546f309e87439 marquée comme vendue=true
+[2025-08-06T21:09:14.262Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=true
+[2025-08-06T21:09:15.563Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=true
+[2025-08-06T21:11:12.015Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 6893a53d2d2546f309e87602 marquée comme vendue=false
+[2025-08-06T21:11:19.810Z] User:68851b7085c1021398898e53 - Action: updateProperty - IP: Modification de l'annonce 6893a53d2d2546f309e87602
+[2025-08-06T21:11:26.971Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 6893a53d2d2546f309e87602 aux favoris
+[2025-08-06T21:13:30.660Z] User:68851b7085c1021398898e53 - Action: updateProperty - IP: Modification de l'annonce 6893a53d2d2546f309e87602
+[2025-08-06T21:15:28.780Z] User:68851b7085c1021398898e53 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-07T03:23:37.427Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-07T03:23:46.449Z] User:68851b7085c1021398898e53 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-07T03:26:05.946Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-07T03:27:05.177Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 687002abcee49164472d0b3c des favoris
+[2025-08-07T03:27:10.289Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 68700406cee49164472d0b4e des favoris
+[2025-08-07T03:46:12.331Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 6893a53d2d2546f309e87602 des favoris
+[2025-08-07T03:46:13.917Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 6893a53d2d2546f309e87602 aux favoris
+[2025-08-07T03:46:15.917Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 6893a53d2d2546f309e87602 des favoris
+[2025-08-07T03:46:16.905Z] User:68851b7085c1021398898e53 - Action: addFavorite - IP: Ajout de la propriété 6893a53d2d2546f309e87602 aux favoris
+[2025-08-08T02:29:56.512Z] User:68851b7085c1021398898e53 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-08T02:42:12.154Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-08T03:18:58.346Z] User:68851b7085c1021398898e53 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-08T03:24:38.421Z] User:68851b7085c1021398898e53 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-08T03:41:06.202Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=false
+[2025-08-08T03:41:07.668Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=true
+[2025-08-08T03:46:52.596Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 6893a0ac2d2546f309e87439 marquée comme vendue=false
+[2025-08-08T03:46:54.631Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=false
+[2025-08-08T03:46:56.035Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=false
+[2025-08-08T03:46:56.839Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688a1afa52d0b61f7df912cb marquée comme vendue=true
+[2025-08-08T03:46:58.276Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=true
+[2025-08-08T03:46:59.201Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 6893a0ac2d2546f309e87439 marquée comme vendue=true
+[2025-08-08T04:11:12.040Z] User:68851b7085c1021398898e53 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-08T04:11:39.060Z] User:68851b7085c1021398898e53 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-08T04:12:17.890Z] User:68851b7085c1021398898e53 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-08T04:12:55.935Z] User:68851b7085c1021398898e53 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-08T04:13:07.160Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-08T04:24:13.666Z] User:68851ba885c1021398898e64 - Action: login - IP: Connexion utilisateur : faliana@faliana1.com
+[2025-08-08T04:24:44.242Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T03:51:50.218Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T03:52:42.084Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T03:53:52.274Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T03:54:04.950Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T03:54:21.417Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T03:54:59.930Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T03:55:17.480Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T03:55:41.159Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T03:56:51.544Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T03:56:56.582Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T03:57:24.400Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T03:57:30.713Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T03:58:54.992Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T03:59:52.965Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T04:08:45.648Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T04:11:47.140Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T04:12:06.858Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T04:14:26.499Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T04:14:51.638Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T04:16:41.327Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T04:16:48.885Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T04:18:22.162Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T04:25:21.398Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-08-12T04:29:03.141Z] User:687ceb6220887e15dc3c6022 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-12T04:41:38.248Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 6877240cc3753f6c39f4d3c4 validée=false
+[2025-08-12T04:41:39.312Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 6877240cc3753f6c39f4d3c4 validée=true
+[2025-08-12T04:41:40.481Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 6877245ec3753f6c39f4d3c9 validée=true
+[2025-08-12T04:41:43.609Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 688a1afa52d0b61f7df912cb validée=true
+[2025-08-12T04:41:44.584Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 688a1cbc52d0b61f7df916e5 validée=true
+[2025-08-12T04:41:45.642Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 688bac8385943f1f6504cff4 validée=true
+[2025-08-12T04:42:02.678Z] User:687ceb6220887e15dc3c6022 - Action: adminDeleteProperty - Details: Annonce 688a1afa52d0b61f7df912cb supprimée
+[2025-08-12T04:42:09.894Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 686c14058e248a5c89224eaa validée=false
+[2025-08-12T04:42:10.576Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 686c14058e248a5c89224eaa validée=true
+[2025-08-12T04:45:03.234Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 6893a53d2d2546f309e87602 validée=true
+[2025-08-12T04:45:04.781Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 6893a0ac2d2546f309e87439 validée=true
+[2025-08-12T05:04:41.536Z] User:687ceb6220887e15dc3c6022 - Action: deleteUserByAdmin - Details: Utilisateur 686c11258e248a5c89224e7e supprimé avec 1 annonces
+[2025-08-12T05:04:54.028Z] User:687ceb6220887e15dc3c6022 - Action: deleteUserByAdmin - Details: Utilisateur 686c11568e248a5c89224e81 supprimé avec 10 annonces
+[2025-08-12T05:04:56.772Z] User:687ceb6220887e15dc3c6022 - Action: deleteUserByAdmin - Details: Utilisateur 686cb9ff2360376dd1030773 supprimé avec 0 annonces
+[2025-08-12T05:08:58.436Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 688bac8385943f1f6504cff4 validée=false
+[2025-08-12T05:08:59.172Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 688bac8385943f1f6504cff4 validée=true
+[2025-08-12T05:12:50.238Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-08-13T03:56:30.150Z] User:687ceb6220887e15dc3c6022 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-13T03:59:24.912Z] User:687ceb6220887e15dc3c6022 - Action: removeFavorite - IP: Suppression de la propriété 687cd7a1a50639d5b45d6600 des favoris
+[2025-08-13T03:59:31.637Z] User:687ceb6220887e15dc3c6022 - Action: addFavorite - IP: Ajout de la propriété 6893a53d2d2546f309e87602 aux favoris
+[2025-08-13T03:59:32.551Z] User:687ceb6220887e15dc3c6022 - Action: removeFavorite - IP: Suppression de la propriété 6893a53d2d2546f309e87602 des favoris
+[2025-08-13T03:59:33.286Z] User:687ceb6220887e15dc3c6022 - Action: addFavorite - IP: Ajout de la propriété 6893a53d2d2546f309e87602 aux favoris
+[2025-08-13T03:59:34.108Z] User:687ceb6220887e15dc3c6022 - Action: removeFavorite - IP: Suppression de la propriété 6893a53d2d2546f309e87602 des favoris
+[2025-08-13T04:00:00.239Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=true
+[2025-08-13T04:00:01.161Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=false
+[2025-08-13T04:00:01.803Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=true
+[2025-08-13T04:00:02.655Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=false
+[2025-08-13T04:00:03.452Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=true
+[2025-08-13T04:00:04.165Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=false
+[2025-08-13T04:00:05.129Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=true
+[2025-08-13T04:00:05.879Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=false
+[2025-08-13T04:00:06.651Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=true
+[2025-08-13T04:00:07.991Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=false
+[2025-08-13T04:04:47.995Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-13T04:05:06.164Z] User:68851b7085c1021398898e53 - Action: updateProperty - IP: Modification de l'annonce 6893a53d2d2546f309e87602
+[2025-08-13T04:05:18.894Z] User:68851b7085c1021398898e53 - Action: updateProperty - IP: Modification de l'annonce 6893a53d2d2546f309e87602
+[2025-08-13T04:09:10.332Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 688a1cbc52d0b61f7df916e5 des favoris
+[2025-08-13T04:09:47.399Z] User:68851b7085c1021398898e53 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-13T04:10:04.443Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 6893a53d2d2546f309e87602 marquée comme vendue=true
+[2025-08-13T04:10:05.630Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 6893a53d2d2546f309e87602 marquée comme vendue=false
+[2025-08-13T04:10:06.860Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 6893a0ac2d2546f309e87439 marquée comme vendue=false
+[2025-08-13T04:10:07.887Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=false
+[2025-08-13T04:10:08.446Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 688bac8385943f1f6504cff4 marquée comme vendue=true
+[2025-08-13T04:10:09.682Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 6893a0ac2d2546f309e87439 marquée comme vendue=true
+[2025-08-13T04:11:57.722Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-08-13T04:45:23.250Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-13T04:45:59.873Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 6881037ef979871ca706c1b4 des favoris
+[2025-08-13T04:46:01.302Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 68828e27fab629ad8532a2b3 des favoris
+[2025-08-13T04:54:08.442Z] User:68851b7085c1021398898e53 - Action: removeFavorite - IP: Suppression de la propriété 68826f19fab629ad85329c7b des favoris
+[2025-08-13T04:56:35.598Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 6893a53d2d2546f309e87602 marquée comme vendue=true
+[2025-08-13T04:56:36.282Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 6893a53d2d2546f309e87602 marquée comme vendue=false
+[2025-08-13T04:57:39.007Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-13T04:57:52.100Z] User:68777470d59c495dbfc31dfa - Action: login - IP: Connexion utilisateur : utilisateur@utilisateur.com
+[2025-08-13T04:58:11.481Z] User:68777470d59c495dbfc31dfa - Action: deleteProperty - IP: Suppression de l'annonce 687cd7a1a50639d5b45d6600
+[2025-08-13T05:13:56.676Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-08-13T05:14:12.541Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 6893a53d2d2546f309e87602 marquée comme vendue=true
+[2025-08-13T05:14:13.362Z] User:68851b7085c1021398898e53 - Action: toggleSoldStatus - IP: Annonce 6893a53d2d2546f309e87602 marquée comme vendue=false
+[2025-08-13T05:14:56.457Z] User:68851b7085c1021398898e53 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-13T05:16:35.779Z] User:68851b7085c1021398898e53 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-13T05:16:53.776Z] User:68851b7085c1021398898e53 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-13T05:17:33.729Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-08-13T05:29:32.297Z] User:687ceb6220887e15dc3c6022 - Action: deleteUserByAdmin - Details: Utilisateur 688b7e3485943f1f6504cb50 supprimé avec 0 annonces
+[2025-08-13T05:29:48.475Z] User:687ceb6220887e15dc3c6022 - Action: deleteUserByAdmin - Details: Utilisateur 688a22ed91899669c2a7bf6c supprimé avec 0 annonces
+[2025-08-13T05:33:45.639Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 6893a53d2d2546f309e87602 validée=false
+[2025-08-13T05:33:46.291Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 6893a53d2d2546f309e87602 validée=true
+[2025-08-13T05:33:47.353Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 6893a0ac2d2546f309e87439 validée=false
+[2025-08-13T05:33:47.944Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 6893a0ac2d2546f309e87439 validée=true
+[2025-08-13T05:33:49.131Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 688bac8385943f1f6504cff4 validée=false
+[2025-08-13T05:33:49.879Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 688bac8385943f1f6504cff4 validée=true
+[2025-08-13T05:33:50.674Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 688bac8385943f1f6504cff4 validée=false
+[2025-08-13T05:33:52.620Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 688bac8385943f1f6504cff4 validée=true
+[2025-08-13T13:51:37.565Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-08-13T14:34:14.266Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-08-13T14:34:48.051Z] User:687ceb6220887e15dc3c6022 - Action: deleteUserByAdmin - Details: Utilisateur 6887d316d766b28878de957d supprimé avec 0 annonces
+[2025-08-13T15:05:46.376Z] User:689ca9cad157c820f82b7f4e - Action: register - IP: Nouvel utilisateur inscrit : falianaelien@gmail.com
+[2025-08-13T15:06:05.630Z] User:689ca9cad157c820f82b7f4e - Action: deleteUser - IP: Suppression du compte utilisateur et ses annonces
+[2025-08-13T15:06:53.616Z] User:689caa0dd157c820f82b7f68 - Action: register - IP: Nouvel utilisateur inscrit : falianaelien@gmail.com
+[2025-08-13T15:07:32.256Z] User:689caa0dd157c820f82b7f68 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-13T15:08:18.941Z] User:689caa0dd157c820f82b7f68 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-13T15:17:58.980Z] User:689caa0dd157c820f82b7f68 - Action: login - IP: Connexion utilisateur : falianaelien@gmail.com
+[2025-08-13T15:43:37.109Z] User:689caa0dd157c820f82b7f68 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-08-13T15:44:17.455Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-08-13T15:45:11.729Z] User:687ceb6220887e15dc3c6022 - Action: updateProperty - IP: Modification de l'annonce 6881037ef979871ca706c1b4
+[2025-08-30T07:05:59.438Z] User:68777470d59c495dbfc31dfa - Action: addFavorite - IP: Ajout de la propriété 6893a53d2d2546f309e87602 aux favoris
+[2025-08-30T07:06:00.739Z] User:68777470d59c495dbfc31dfa - Action: removeFavorite - IP: Suppression de la propriété 6893a53d2d2546f309e87602 des favoris
+[2025-08-30T07:06:01.459Z] User:68777470d59c495dbfc31dfa - Action: addFavorite - IP: Ajout de la propriété 6893a53d2d2546f309e87602 aux favoris
+[2025-08-30T07:06:02.440Z] User:68777470d59c495dbfc31dfa - Action: removeFavorite - IP: Suppression de la propriété 6893a53d2d2546f309e87602 des favoris
+[2025-08-30T07:06:03.079Z] User:68777470d59c495dbfc31dfa - Action: addFavorite - IP: Ajout de la propriété 6893a53d2d2546f309e87602 aux favoris
+[2025-08-30T07:06:05.098Z] User:68777470d59c495dbfc31dfa - Action: removeFavorite - IP: Suppression de la propriété 6893a53d2d2546f309e87602 des favoris
+[2025-08-30T07:06:05.957Z] User:68777470d59c495dbfc31dfa - Action: addFavorite - IP: Ajout de la propriété 6893a53d2d2546f309e87602 aux favoris
+[2025-08-30T07:06:06.852Z] User:68777470d59c495dbfc31dfa - Action: removeFavorite - IP: Suppression de la propriété 6893a53d2d2546f309e87602 des favoris
+[2025-08-30T07:06:07.534Z] User:68777470d59c495dbfc31dfa - Action: addFavorite - IP: Ajout de la propriété 6893a53d2d2546f309e87602 aux favoris
+[2025-08-30T07:06:08.610Z] User:68777470d59c495dbfc31dfa - Action: removeFavorite - IP: Suppression de la propriété 6893a53d2d2546f309e87602 des favoris
+[2025-08-30T07:06:09.723Z] User:68777470d59c495dbfc31dfa - Action: addFavorite - IP: Ajout de la propriété 6893a53d2d2546f309e87602 aux favoris
+[2025-08-30T07:06:10.755Z] User:68777470d59c495dbfc31dfa - Action: removeFavorite - IP: Suppression de la propriété 6893a53d2d2546f309e87602 des favoris
+[2025-08-30T07:06:12.113Z] User:68777470d59c495dbfc31dfa - Action: addFavorite - IP: Ajout de la propriété 6893a53d2d2546f309e87602 aux favoris
+[2025-08-30T07:06:16.842Z] User:68777470d59c495dbfc31dfa - Action: removeFavorite - IP: Suppression de la propriété 6893a53d2d2546f309e87602 des favoris
+[2025-08-30T07:06:25.342Z] User:68777470d59c495dbfc31dfa - Action: addFavorite - IP: Ajout de la propriété 6893a53d2d2546f309e87602 aux favoris
+[2025-08-30T07:07:55.988Z] User:68777470d59c495dbfc31dfa - Action: removeFavorite - IP: Suppression de la propriété 6893a53d2d2546f309e87602 des favoris
+[2025-08-30T07:07:57.283Z] User:68777470d59c495dbfc31dfa - Action: addFavorite - IP: Ajout de la propriété 6893a53d2d2546f309e87602 aux favoris
+[2025-08-30T07:09:07.576Z] User:68777470d59c495dbfc31dfa - Action: login - IP: Connexion utilisateur : utilisateur@utilisateur.com
+[2025-09-09T05:38:48.509Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-09-09T05:39:39.026Z] User:687ceb6220887e15dc3c6022 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-09-23T06:52:40.504Z] User:68851ba885c1021398898e64 - Action: login - IP: Connexion utilisateur : faliana@faliana1.com
+[2025-09-30T09:19:02.377Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-09-30T09:21:06.958Z] User:687ceb6220887e15dc3c6022 - Action: addFavorite - IP: Ajout de la propriété 6893a53d2d2546f309e87602 aux favoris
+[2025-10-09T09:20:34.720Z] User:689caa0dd157c820f82b7f68 - Action: login - IP: Connexion utilisateur : falianaelien@gmail.com
+[2025-10-09T10:18:58.490Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-10-24T03:52:47.036Z] User:687ceb6220887e15dc3c6022 - Action: adminDeleteProperty - Details: Annonce 6893a53d2d2546f309e87602 supprimée
+[2025-10-24T03:52:51.166Z] User:687ceb6220887e15dc3c6022 - Action: adminDeleteProperty - Details: Annonce 6893a0ac2d2546f309e87439 supprimée
+[2025-10-24T03:52:58.061Z] User:687ceb6220887e15dc3c6022 - Action: adminDeleteProperty - Details: Annonce 688bac8385943f1f6504cff4 supprimée
+[2025-10-24T03:53:00.886Z] User:687ceb6220887e15dc3c6022 - Action: adminDeleteProperty - Details: Annonce 688a1cbc52d0b61f7df916e5 supprimée
+[2025-10-24T03:53:09.762Z] User:687ceb6220887e15dc3c6022 - Action: adminDeleteProperty - Details: Annonce 68771a71fb5a3bd63885fe92 supprimée
+[2025-10-24T03:55:39.794Z] User:687ceb6220887e15dc3c6022 - Action: updateProperty - IP: Modification de l'annonce 6881037ef979871ca706c1b4
+[2025-10-24T03:56:22.521Z] User:68851ba885c1021398898e64 - Action: login - IP: Connexion utilisateur : faliana@faliana1.com
+[2025-10-24T03:57:11.022Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-10-24T03:57:37.876Z] User:689caa0dd157c820f82b7f68 - Action: login - IP: Connexion utilisateur : falianaelien@gmail.com
+[2025-10-24T03:57:51.096Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-10-24T03:58:29.865Z] User:68777470d59c495dbfc31dfa - Action: login - IP: Connexion utilisateur : utilisateur@utilisateur.com
+[2025-10-24T03:58:57.017Z] User:68777470d59c495dbfc31dfa - Action: updateProperty - IP: Modification de l'annonce 68789140ac6ff16e851fcc2c
+[2025-10-24T04:00:02.706Z] User:68777470d59c495dbfc31dfa - Action: updateProperty - IP: Modification de l'annonce 68778be361767a17c6799b40
+[2025-10-24T04:00:03.704Z] User:68777470d59c495dbfc31dfa - Action: updateProperty - IP: Modification de l'annonce 68778be361767a17c6799b40
+[2025-10-24T04:00:56.954Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-10-24T04:01:30.620Z] User:687ceb6220887e15dc3c6022 - Action: adminDeleteProperty - Details: Annonce 6877245ec3753f6c39f4d3c9 supprimée
+[2025-10-24T04:01:35.065Z] User:687ceb6220887e15dc3c6022 - Action: adminDeleteProperty - Details: Annonce 6877240cc3753f6c39f4d3c4 supprimée
+[2025-10-24T04:01:51.137Z] User:687ceb6220887e15dc3c6022 - Action: adminDeleteProperty - Details: Annonce 686f6440cc8c221b5a4fcb1f supprimée
+[2025-10-24T04:05:24.254Z] User:687ceb6220887e15dc3c6022 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-10-24T04:08:14.958Z] User:687ceb6220887e15dc3c6022 - Action: createProperty - IP: Ajout de l'annonce 68fafbae36ac91cea6427b37
+[2025-10-24T04:09:47.668Z] User:687ceb6220887e15dc3c6022 - Action: createProperty - IP: Ajout de l'annonce 68fafc0b36ac91cea6427bc7
+[2025-10-24T04:11:52.276Z] User:687ceb6220887e15dc3c6022 - Action: createProperty - IP: Ajout de l'annonce 68fafc8836ac91cea6427c57
+[2025-10-24T04:17:07.823Z] User:687ceb6220887e15dc3c6022 - Action: createProperty - IP: Ajout de l'annonce 68fafdc336ac91cea6427d17
+[2025-10-24T04:20:35.251Z] User:687ceb6220887e15dc3c6022 - Action: createProperty - IP: Ajout de l'annonce 68fafe9336ac91cea6427da7
+[2025-10-24T04:21:18.952Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fafe9336ac91cea6427da7 marquée comme vendue=true
+[2025-10-24T04:29:10.028Z] User:687ceb6220887e15dc3c6022 - Action: createProperty - IP: Ajout de l'annonce 68fb009636ac91cea642844d
+[2025-10-24T04:33:07.548Z] User:687ceb6220887e15dc3c6022 - Action: createProperty - IP: Ajout de l'annonce 68fb018336ac91cea64284e9
+[2025-10-24T04:56:10.575Z] User:68777470d59c495dbfc31dfa - Action: login - IP: Connexion utilisateur : utilisateur@utilisateur.com
+[2025-10-24T04:56:19.924Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-10-24T04:57:02.510Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 68fafc8836ac91cea6427c57 validée=true
+[2025-10-24T04:57:04.329Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 68fafdc336ac91cea6427d17 validée=true
+[2025-10-24T04:57:05.127Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 68fafe9336ac91cea6427da7 validée=true
+[2025-10-24T04:57:05.701Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 68fb009636ac91cea642844d validée=true
+[2025-10-24T04:57:06.616Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 68fb018336ac91cea64284e9 validée=true
+[2025-11-16T04:24:59.213Z] User:687ceb6220887e15dc3c6022 - Action: removeFavorite - IP: Suppression de la propriété 6881037ef979871ca706c1b4 des favoris
+[2025-11-16T04:25:09.313Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb018336ac91cea64284e9 marquée comme vendue=true
+[2025-11-16T04:25:10.718Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb009636ac91cea642844d marquée comme vendue=true
+[2025-11-16T04:25:13.386Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fafdc336ac91cea6427d17 marquée comme vendue=true
+[2025-11-16T04:25:14.748Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fafe9336ac91cea6427da7 marquée comme vendue=false
+[2025-11-16T04:25:17.127Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fafe9336ac91cea6427da7 marquée comme vendue=true
+[2025-11-16T04:26:08.546Z] User:68777470d59c495dbfc31dfa - Action: login - IP: Connexion utilisateur : utilisateur@utilisateur.com
+[2025-11-16T04:26:37.351Z] User:68777470d59c495dbfc31dfa - Action: updateProperty - IP: Modification de l'annonce 68826f19fab629ad85329c7b
+[2025-11-16T04:39:35.667Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-11-16T04:40:39.457Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fafbae36ac91cea6427b37 marquée comme vendue=true
+[2025-11-16T04:40:40.709Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 6881037ef979871ca706c1b4 marquée comme vendue=true
+[2025-11-16T04:41:12.335Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb018336ac91cea64284e9 marquée comme vendue=false
+[2025-11-16T04:41:16.366Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fafdc336ac91cea6427d17 marquée comme vendue=false
+[2025-11-16T05:20:03.533Z] User:69195f03197455427d9db481 - Action: register - IP: Nouvel utilisateur inscrit : andrialalaniaina@elien.com
+[2025-11-16T05:22:31.599Z] User:69195f03197455427d9db481 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-11-16T05:25:39.747Z] User:69195f03197455427d9db481 - Action: login - IP: Connexion utilisateur : andrialalaniaina@elien.com
+[2025-11-16T06:00:48.692Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-11-18T10:56:39.758Z] User:687ceb6220887e15dc3c6022 - Action: updateProperty - IP: Modification de l'annonce 68fb018336ac91cea64284e9
+[2025-11-18T10:56:50.218Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb009636ac91cea642844d marquée comme vendue=false
+[2025-11-18T10:57:04.771Z] User:687ceb6220887e15dc3c6022 - Action: updateProperty - IP: Modification de l'annonce 68fb009636ac91cea642844d
+[2025-11-18T10:57:14.593Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fafe9336ac91cea6427da7 marquée comme vendue=false
+[2025-11-18T11:09:05.121Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb009636ac91cea642844d marquée comme vendue=true
+[2025-11-18T11:09:07.319Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fafe9336ac91cea6427da7 marquée comme vendue=true
+[2025-11-18T11:09:08.738Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fafe9336ac91cea6427da7 marquée comme vendue=false
+[2025-11-18T11:09:10.189Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb009636ac91cea642844d marquée comme vendue=false
+[2025-11-18T11:09:19.594Z] User:687ceb6220887e15dc3c6022 - Action: updateProperty - IP: Modification de l'annonce 68fb009636ac91cea642844d
+[2025-11-18T11:12:18.081Z] User:687ceb6220887e15dc3c6022 - Action: createProperty - IP: Ajout de l'annonce 691c549297994c5253d27548
+[2025-11-18T11:12:36.271Z] User:687ceb6220887e15dc3c6022 - Action: updateProperty - IP: Modification de l'annonce 691c549297994c5253d27548
+[2025-11-18T11:15:02.210Z] User:687ceb6220887e15dc3c6022 - Action: deleteProperty - IP: Suppression de l'annonce 68fafe9336ac91cea6427da7
+[2025-11-18T11:15:20.095Z] User:687ceb6220887e15dc3c6022 - Action: updateProperty - IP: Modification de l'annonce 68fafdc336ac91cea6427d17
+[2025-11-18T11:16:01.315Z] User:687ceb6220887e15dc3c6022 - Action: updateProperty - IP: Modification de l'annonce 68fafc8836ac91cea6427c57
+[2025-11-18T11:16:25.797Z] User:687ceb6220887e15dc3c6022 - Action: updateProperty - IP: Modification de l'annonce 68fafc0b36ac91cea6427bc7
+[2025-11-18T11:16:34.829Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fafbae36ac91cea6427b37 marquée comme vendue=false
+[2025-11-18T11:17:18.852Z] User:687ceb6220887e15dc3c6022 - Action: updateProperty - IP: Modification de l'annonce 68fafbae36ac91cea6427b37
+[2025-11-18T11:17:32.941Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb018336ac91cea64284e9 marquée comme vendue=true
+[2025-11-18T11:17:36.423Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb009636ac91cea642844d marquée comme vendue=true
+[2025-11-18T11:17:45.035Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb018336ac91cea64284e9 marquée comme vendue=false
+[2025-11-18T11:17:46.345Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb009636ac91cea642844d marquée comme vendue=false
+[2025-11-18T11:19:16.584Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb009636ac91cea642844d marquée comme vendue=true
+[2025-11-18T11:20:07.505Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb009636ac91cea642844d marquée comme vendue=false
+[2025-11-18T11:20:10.446Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb009636ac91cea642844d marquée comme vendue=true
+[2025-11-18T11:20:13.192Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb018336ac91cea64284e9 marquée comme vendue=true
+[2025-11-18T11:21:52.507Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-11-18T11:24:38.297Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb009636ac91cea642844d marquée comme vendue=false
+[2025-11-18T11:25:10.838Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb009636ac91cea642844d marquée comme vendue=true
+[2025-11-18T11:58:55.138Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-11-22T10:37:05.777Z] User:68851ba885c1021398898e64 - Action: login - IP: Connexion utilisateur : faliana@faliana1.com
+[2025-11-22T10:39:54.598Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-11-22T10:42:11.613Z] User:687ceb6220887e15dc3c6022 - Action: addFavorite - IP: Ajout de la propriété 68fb018336ac91cea64284e9 aux favoris
+[2025-11-22T10:42:17.285Z] User:687ceb6220887e15dc3c6022 - Action: removeFavorite - IP: Suppression de la propriété 68fb018336ac91cea64284e9 des favoris
+[2025-11-22T10:43:12.755Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 68fb018336ac91cea64284e9 validée=false
+[2025-11-22T10:43:13.321Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 68fb009636ac91cea642844d validée=false
+[2025-11-22T10:43:13.897Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 68fafdc336ac91cea6427d17 validée=false
+[2025-11-22T10:43:14.851Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 68fafc8836ac91cea6427c57 validée=false
+[2025-11-22T10:43:16.381Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 68828e27fab629ad8532a2b3 validée=false
+[2025-11-22T10:43:17.390Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 68826f19fab629ad85329c7b validée=false
+[2025-11-22T10:43:17.924Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 6881037ef979871ca706c1b4 validée=false
+[2025-11-22T10:43:18.510Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 68789140ac6ff16e851fcc2c validée=false
+[2025-11-22T10:43:19.247Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 68778be361767a17c6799b40 validée=false
+[2025-11-22T10:43:32.643Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 691c549297994c5253d27548 validée=true
+[2025-11-22T10:43:33.497Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 68fb018336ac91cea64284e9 validée=true
+[2025-11-22T10:43:34.142Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 68fb009636ac91cea642844d validée=true
+[2025-11-22T10:43:34.883Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 68fafdc336ac91cea6427d17 validée=true
+[2025-11-22T10:43:36.147Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 68fafc8836ac91cea6427c57 validée=true
+[2025-11-22T13:07:23.015Z] User:68851ba885c1021398898e64 - Action: login - IP: Connexion utilisateur : faliana@faliana1.com
+[2025-11-22T13:44:17.879Z] User:68851ba885c1021398898e64 - Action: login - IP: Connexion utilisateur : faliana@faliana1.com
+[2025-11-22T17:51:57.185Z] User:68851ba885c1021398898e64 - Action: login - IP: Connexion utilisateur : faliana@faliana1.com
+[2025-11-22T17:53:02.913Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-11-22T17:53:03.461Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-11-22T17:53:55.770Z] User:68851ba885c1021398898e64 - Action: addFavorite - IP: Ajout de la propriété 691c549297994c5253d27548 aux favoris
+[2025-11-23T02:02:35.242Z] User:68851ba885c1021398898e64 - Action: login - IP: Connexion utilisateur : faliana@faliana1.com
+[2025-11-23T02:03:24.622Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-11-23T02:04:25.879Z] User:68851ba885c1021398898e64 - Action: addFavorite - IP: Ajout de la propriété 68828e27fab629ad8532a2b3 aux favoris
+[2025-11-23T02:07:04.106Z] User:68851ba885c1021398898e64 - Action: createProperty - IP: Ajout de l'annonce 69226c48ea8e880e59a3226f
+[2025-11-23T02:07:20.181Z] User:68851ba885c1021398898e64 - Action: addFavorite - IP: Ajout de la propriété 69226c48ea8e880e59a3226f aux favoris
+[2025-11-23T02:07:20.694Z] User:68851ba885c1021398898e64 - Action: removeFavorite - IP: Suppression de la propriété 69226c48ea8e880e59a3226f des favoris
+[2025-11-23T02:07:20.925Z] User:68851ba885c1021398898e64 - Action: addFavorite - IP: Ajout de la propriété 69226c48ea8e880e59a3226f aux favoris
+[2025-11-23T02:07:45.551Z] User:68851ba885c1021398898e64 - Action: toggleSoldStatus - IP: Annonce 69226c48ea8e880e59a3226f marquée comme vendue=true
+[2025-11-23T02:07:48.887Z] User:68851ba885c1021398898e64 - Action: toggleSoldStatus - IP: Annonce 69226c48ea8e880e59a3226f marquée comme vendue=false
+[2025-11-23T02:07:49.492Z] User:68851ba885c1021398898e64 - Action: toggleSoldStatus - IP: Annonce 69226c48ea8e880e59a3226f marquée comme vendue=true
+[2025-11-23T02:08:20.660Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-11-23T02:30:08.614Z] User:68851ba885c1021398898e64 - Action: login - IP: Connexion utilisateur : faliana@faliana1.com
+[2025-11-23T02:30:40.730Z] User:68851ba885c1021398898e64 - Action: removeFavorite - IP: Suppression de la propriété 691c549297994c5253d27548 des favoris
+[2025-11-23T02:30:43.438Z] User:68851ba885c1021398898e64 - Action: removeFavorite - IP: Suppression de la propriété 68828e27fab629ad8532a2b3 des favoris
+[2025-11-23T02:32:00.257Z] User:68851ba885c1021398898e64 - Action: addFavorite - IP: Ajout de la propriété 691c549297994c5253d27548 aux favoris
+[2025-11-23T02:32:13.601Z] User:68851ba885c1021398898e64 - Action: toggleSoldStatus - IP: Annonce 69226c48ea8e880e59a3226f marquée comme vendue=false
+[2025-11-23T02:32:17.598Z] User:68851ba885c1021398898e64 - Action: toggleSoldStatus - IP: Annonce 69226c48ea8e880e59a3226f marquée comme vendue=true
+[2025-11-23T02:32:18.663Z] User:68851ba885c1021398898e64 - Action: toggleSoldStatus - IP: Annonce 69226c48ea8e880e59a3226f marquée comme vendue=false
+[2025-11-23T02:32:19.817Z] User:68851ba885c1021398898e64 - Action: toggleSoldStatus - IP: Annonce 69226c48ea8e880e59a3226f marquée comme vendue=true
+[2025-11-23T02:32:59.359Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-11-23T02:54:17.066Z] User:68851ba885c1021398898e64 - Action: login - IP: Connexion utilisateur : faliana@faliana1.com
+[2025-11-23T02:54:47.867Z] User:68851ba885c1021398898e64 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-11-23T02:55:17.674Z] User:68851ba885c1021398898e64 - Action: toggleSoldStatus - IP: Annonce 69226c48ea8e880e59a3226f marquée comme vendue=false
+[2025-11-23T02:55:19.088Z] User:68851ba885c1021398898e64 - Action: toggleSoldStatus - IP: Annonce 69226c48ea8e880e59a3226f marquée comme vendue=true
+[2025-11-23T02:55:19.936Z] User:68851ba885c1021398898e64 - Action: toggleSoldStatus - IP: Annonce 69226c48ea8e880e59a3226f marquée comme vendue=false
+[2025-11-23T02:55:25.951Z] User:68851ba885c1021398898e64 - Action: removeFavorite - IP: Suppression de la propriété 691c549297994c5253d27548 des favoris
+[2025-11-23T02:55:32.081Z] User:68851ba885c1021398898e64 - Action: addFavorite - IP: Ajout de la propriété 691c549297994c5253d27548 aux favoris
+[2025-11-23T02:56:05.807Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-11-23T03:20:28.340Z] User:68851ba885c1021398898e64 - Action: login - IP: Connexion utilisateur : faliana@faliana1.com
+[2025-11-23T03:21:27.407Z] User:68851ba885c1021398898e64 - Action: deleteUser - IP: Suppression du compte utilisateur et ses annonces
+[2025-11-23T03:21:49.133Z] User:689caa0dd157c820f82b7f68 - Action: login - IP: Connexion utilisateur : falianaelien@gmail.com
+[2025-11-23T03:22:18.819Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-11-23T13:15:07.157Z] User:689caa0dd157c820f82b7f68 - Action: login - IP: Connexion utilisateur : falianaelien@gmail.com
+[2025-11-23T13:15:56.097Z] User:689caa0dd157c820f82b7f68 - Action: addFavorite - IP: Ajout de la propriété 68826f19fab629ad85329c7b aux favoris
+[2025-11-23T13:16:01.163Z] User:689caa0dd157c820f82b7f68 - Action: removeFavorite - IP: Suppression de la propriété 68826f19fab629ad85329c7b des favoris
+[2025-11-23T13:16:09.478Z] User:689caa0dd157c820f82b7f68 - Action: addFavorite - IP: Ajout de la propriété 68826f19fab629ad85329c7b aux favoris
+[2025-11-23T13:16:10.296Z] User:689caa0dd157c820f82b7f68 - Action: removeFavorite - IP: Suppression de la propriété 68826f19fab629ad85329c7b des favoris
+[2025-11-23T13:16:11.072Z] User:689caa0dd157c820f82b7f68 - Action: addFavorite - IP: Ajout de la propriété 68826f19fab629ad85329c7b aux favoris
+[2025-11-23T13:16:11.714Z] User:689caa0dd157c820f82b7f68 - Action: removeFavorite - IP: Suppression de la propriété 68826f19fab629ad85329c7b des favoris
+[2025-11-23T13:16:23.740Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-11-23T19:26:02.774Z] User:688a1bda52d0b61f7df916cb - Action: login - IP: Connexion utilisateur : utilisateur5@utilisateur5.com
+[2025-11-23T19:28:21.149Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-11-23T19:29:21.893Z] User:687ceb6220887e15dc3c6022 - Action: addFavorite - IP: Ajout de la propriété 68fafc8836ac91cea6427c57 aux favoris
+[2025-11-23T19:29:36.414Z] User:687ceb6220887e15dc3c6022 - Action: addFavorite - IP: Ajout de la propriété 68fafdc336ac91cea6427d17 aux favoris
+[2025-11-23T19:58:07.048Z] User:688a1bda52d0b61f7df916cb - Action: login - IP: Connexion utilisateur : utilisateur5@utilisateur5.com
+[2025-11-23T19:58:43.846Z] User:688a1bda52d0b61f7df916cb - Action: addFavorite - IP: Ajout de la propriété 68fb018336ac91cea64284e9 aux favoris
+[2025-11-23T19:59:31.664Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-11-23T20:00:26.165Z] User:687ceb6220887e15dc3c6022 - Action: addFavorite - IP: Ajout de la propriété 691c549297994c5253d27548 aux favoris
+[2025-11-23T20:22:28.431Z] User:689caa0dd157c820f82b7f68 - Action: login - IP: Connexion utilisateur : falianaelien@gmail.com
+[2025-11-23T20:23:34.041Z] User:689caa0dd157c820f82b7f68 - Action: addFavorite - IP: Ajout de la propriété 68fb018336ac91cea64284e9 aux favoris
+[2025-11-23T20:24:12.735Z] User:689caa0dd157c820f82b7f68 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-11-23T20:24:25.255Z] User:689caa0dd157c820f82b7f68 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-11-23T20:24:51.061Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-11-24T18:16:43.296Z] User:68851b7085c1021398898e53 - Action: login - IP: Connexion utilisateur : elien@elien.com
+[2025-11-24T18:17:17.670Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-11-24T20:05:18.956Z] User:69195f03197455427d9db481 - Action: login - IP: Connexion utilisateur : andrialalaniaina@elien.com
+[2025-11-24T20:05:57.817Z] User:69195f03197455427d9db481 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-11-24T20:07:19.519Z] User:69195f03197455427d9db481 - Action: addFavorite - IP: Ajout de la propriété 691c549297994c5253d27548 aux favoris
+[2025-11-24T20:07:29.181Z] User:69195f03197455427d9db481 - Action: removeFavorite - IP: Suppression de la propriété 691c549297994c5253d27548 des favoris
+[2025-11-24T20:08:41.466Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : user1@user.com
+[2025-11-24T20:09:03.169Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb018336ac91cea64284e9 marquée comme vendue=false
+[2025-11-24T20:09:03.973Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb018336ac91cea64284e9 marquée comme vendue=true
+[2025-11-24T20:09:04.838Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb018336ac91cea64284e9 marquée comme vendue=false
+[2025-11-24T20:09:05.964Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fb018336ac91cea64284e9 marquée comme vendue=true
+[2025-11-24T20:09:10.035Z] User:687ceb6220887e15dc3c6022 - Action: toggleSoldStatus - IP: Annonce 68fafdc336ac91cea6427d17 marquée comme vendue=true
+[2025-11-24T20:09:30.865Z] User:687ceb6220887e15dc3c6022 - Action: removeFavorite - IP: Suppression de la propriété 68fafdc336ac91cea6427d17 des favoris
+[2025-11-24T20:10:20.010Z] User:687ceb6220887e15dc3c6022 - Action: addFavorite - IP: Ajout de la propriété 68fb018336ac91cea64284e9 aux favoris
+[2025-11-24T20:13:45.132Z] User:687ceb6220887e15dc3c6022 - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-11-24T20:16:41.523Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : administrateur@administrateur.com
+[2025-11-24T20:17:58.601Z] User:68777470d59c495dbfc31dfa - Action: login - IP: Connexion utilisateur : utilisateur@utilisateur.com
+[2025-11-24T20:18:20.700Z] User:68777470d59c495dbfc31dfa - Action: login - IP: Connexion utilisateur : utilisateur@utilisateur.com
+[2025-11-24T20:33:39.898Z] User:68777470d59c495dbfc31dfa - Action: login - IP: Connexion utilisateur : utilisateur@utilisateur.com
+[2025-11-24T20:34:23.909Z] User:68777470d59c495dbfc31dfa - Action: removeFavorite - IP: Suppression de la propriété 6881037ef979871ca706c1b4 des favoris
+[2025-11-24T20:34:51.243Z] User:68777470d59c495dbfc31dfa - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-11-24T20:35:04.779Z] User:68777470d59c495dbfc31dfa - Action: addFavorite - IP: Ajout de la propriété 68789140ac6ff16e851fcc2c aux favoris
+[2025-11-24T20:35:16.994Z] User:68777470d59c495dbfc31dfa - Action: addFavorite - IP: Ajout de la propriété 68828e27fab629ad8532a2b3 aux favoris
+[2025-11-24T20:35:24.770Z] User:68777470d59c495dbfc31dfa - Action: removeFavorite - IP: Suppression de la propriété 68828e27fab629ad8532a2b3 des favoris
+[2025-11-24T20:35:55.954Z] User:68777470d59c495dbfc31dfa - Action: toggleSoldStatus - IP: Annonce 68828e27fab629ad8532a2b3 marquée comme vendue=true
+[2025-11-24T20:36:03.822Z] User:68777470d59c495dbfc31dfa - Action: toggleSoldStatus - IP: Annonce 68826f19fab629ad85329c7b marquée comme vendue=true
+[2025-11-24T20:36:05.204Z] User:68777470d59c495dbfc31dfa - Action: toggleSoldStatus - IP: Annonce 68789140ac6ff16e851fcc2c marquée comme vendue=true
+[2025-11-24T20:36:13.683Z] User:68777470d59c495dbfc31dfa - Action: toggleSoldStatus - IP: Annonce 68828e27fab629ad8532a2b3 marquée comme vendue=false
+[2025-11-24T20:36:27.599Z] User:68777470d59c495dbfc31dfa - Action: updateProperty - IP: Modification de l'annonce 68828e27fab629ad8532a2b3
+[2025-11-24T20:36:46.470Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : administrateur@administrateur.com
+[2025-11-25T03:00:05.755Z] User:68777470d59c495dbfc31dfa - Action: login - IP: Connexion utilisateur : utilisateur@utilisateur.com
+[2025-11-25T03:00:37.427Z] User:68777470d59c495dbfc31dfa - Action: removeFavorite - IP: Suppression de la propriété 68826f19fab629ad85329c7b des favoris
+[2025-11-25T03:01:03.761Z] User:68777470d59c495dbfc31dfa - Action: updateUser - IP: Mise à jour profil utilisateur
+[2025-11-25T03:01:16.434Z] User:68777470d59c495dbfc31dfa - Action: toggleSoldStatus - IP: Annonce 68828e27fab629ad8532a2b3 marquée comme vendue=true
+[2025-11-25T03:01:18.980Z] User:68777470d59c495dbfc31dfa - Action: toggleSoldStatus - IP: Annonce 68828e27fab629ad8532a2b3 marquée comme vendue=false
+[2025-11-25T03:02:13.090Z] User:68777470d59c495dbfc31dfa - Action: addFavorite - IP: Ajout de la propriété 691c549297994c5253d27548 aux favoris
+[2025-11-25T03:02:34.760Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : administrateur@administrateur.com
+[2025-11-25T03:03:49.973Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 691c549297994c5253d27548 validée=false
+[2025-11-25T03:03:50.731Z] User:687ceb6220887e15dc3c6022 - Action: validateProperty - Details: Annonce 691c549297994c5253d27548 validée=true
+[2025-11-25T08:08:17.197Z] User:68777470d59c495dbfc31dfa - Action: login - IP: Connexion utilisateur : utilisateur@utilisateur.com
+[2025-11-25T08:08:58.793Z] User:68777470d59c495dbfc31dfa - Action: toggleSoldStatus - IP: Annonce 68828e27fab629ad8532a2b3 marquée comme vendue=true
+[2025-11-25T08:09:00.143Z] User:68777470d59c495dbfc31dfa - Action: toggleSoldStatus - IP: Annonce 68828e27fab629ad8532a2b3 marquée comme vendue=false
+[2025-11-25T08:09:00.973Z] User:68777470d59c495dbfc31dfa - Action: toggleSoldStatus - IP: Annonce 68828e27fab629ad8532a2b3 marquée comme vendue=true
+[2025-11-25T08:09:01.633Z] User:68777470d59c495dbfc31dfa - Action: toggleSoldStatus - IP: Annonce 68828e27fab629ad8532a2b3 marquée comme vendue=false
+[2025-11-25T08:09:03.065Z] User:68777470d59c495dbfc31dfa - Action: toggleSoldStatus - IP: Annonce 68826f19fab629ad85329c7b marquée comme vendue=false
+[2025-11-25T08:09:04.855Z] User:68777470d59c495dbfc31dfa - Action: toggleSoldStatus - IP: Annonce 68828e27fab629ad8532a2b3 marquée comme vendue=true
+[2025-11-25T08:09:05.451Z] User:68777470d59c495dbfc31dfa - Action: toggleSoldStatus - IP: Annonce 68828e27fab629ad8532a2b3 marquée comme vendue=false
+[2025-11-25T08:09:21.267Z] User:68777470d59c495dbfc31dfa - Action: addFavorite - IP: Ajout de la propriété 68fafc8836ac91cea6427c57 aux favoris
+[2025-11-25T08:09:27.394Z] User:68777470d59c495dbfc31dfa - Action: removeFavorite - IP: Suppression de la propriété 68fafc8836ac91cea6427c57 des favoris
+[2025-11-25T08:09:29.731Z] User:68777470d59c495dbfc31dfa - Action: removeFavorite - IP: Suppression de la propriété 691c549297994c5253d27548 des favoris
+[2025-11-25T08:11:05.577Z] User:687ceb6220887e15dc3c6022 - Action: login - IP: Connexion utilisateur : administrateur@administrateur.com
