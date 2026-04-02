@@ -1,21 +1,21 @@
-# 🎨 Frontend - Immo
+# Frontend - Immo
 
-## 👨‍💻 Auteur
+## Auteur
 - Nom : ANDRIALALANIAINA Rantofaliana Elien  
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 npm install
 
 ---
 
-## ⚙️Lancement du projet
+## Lancement du projet
 npm run dev
 
 ---
 
-## ⚙️Lancement du projet
+## Lancement du projet
 http://localhost:5173
