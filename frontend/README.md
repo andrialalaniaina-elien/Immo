@@ -13,6 +13,7 @@ npm install
 ---
 
 ## Lancement du projet
+cd frontend
 npm run dev
 
 ---
